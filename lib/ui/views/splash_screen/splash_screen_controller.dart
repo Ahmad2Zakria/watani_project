@@ -10,7 +10,7 @@ import 'package:get/get.dart';
 class SplashScreenController extends BaseController {
   @override
   void onInit() {
-    Future.delayed(Duration(seconds: 3)).then((value) {
+    Future.delayed(Duration(seconds: 1)).then((value) {
       getCollege();
     });
     super.onInit();
